@@ -1,0 +1,8 @@
+function_name      = "kms-decrypt-count"
+aws_default_region = "us-east-1"
+memory_size        = 128
+timeout            = 900
+s3_key             = "kms-decrypt.zip"
+s3_bucket          = "lambda.bucket.3f5d8"
+runtime            = "python3.9"
+function_handler   = "app_decrypt.handler"
